@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Spicy King</title>
+</head>
+<body>
+    <nav>
+        <ul class="sidebar">
+            <li onclick=hideSidebar()><a href=""><svg xmlns="http://www.w3.org/2000/svg" height="26" viewBox="0 -960 960 960" width="26"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg></a></li>
+            <li><a href="#about-us">About Us</a></li>
+            <li><a href="#menu">Menu</a></li>
+            <li><a href="#location">Location</a></li>
+            <li><a href="#mySkills">Suggest Us</a></li>
+            <li><a href="#contact">Contact Us</a></li>
+        </ul>
+
+        <ul>
+            <li><a href="">Spicy King</a></li>
+            <li class="hideOnMobile"><a href="#about-us">About Us</a></li>
+            <li class="hideOnMobile"><a href="#menu">Menu</a></li>
+            <li class="hideOnMobile"><a href="#location">Location</a></li>
+            <li class="hideOnMobile"><a href="#suggest-us">Suggest Us</a></li>
+            <li class="hideOnMobile"><a href="#contact">Contact Us</a></li>
+            <li onclick="showSidebar()"><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="26" viewBox="0 -960 960 960" width="26"><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/></svg></a></li>
+        </ul>
+    </nav>
+
+    <div class="container">
+        <img src="images/SpicyKing.png" alt="Spicy King">
+        <div class="text">
+            <h1>Spicy King</h1>
+            <h2>Food and Drink</h2>
+            <p>Spicy King is founded in 2023 to offer delicious food to the customers under 
+                the managemnet of the Chef who has experiences with woring for the famous restrurants in Malaysia and
+                 Myanmar. We gurantee the quality of our food as well as the service to our customers. At our restrurant,
+                you can order different types of cuisines and drinks. </p>
+        </div>
+    </div>
+  
+
+    <div class="menu">
+        <h2 class="clear" id="clear">ရရှိနိုင်သော အစားအစာများ</h2>
+
+        <article class="item"> 
+            <p class = "item-burger">Burger (Cheese, Chicken)</p><p class="price">3000, 4000</p>
+        </article>    
+
+        <article class="item">
+            <p class = "item-burger" id="herbal-broth">Sandwich (Cheese, Chicken, Tuna)</p><p class="price">3000, 4000</p>
+        </article>
+
+        <article class="item">
+            <p class = "item-burger" id="herbal-broth">ပေါင်မုန့်မီးကင်</p><p class="price">3500</p>
+        </article>
+
+        <article class="item">
+            <p class = "item-burger" id="herbal-broth">ပေါင်မုန့်ကြက်ဥကြော်</p><p class="price">1200</p>
+        </article>
+
+        <article class="item">
+            <p class = "item-burger" id="herbal-broth">ဆီချက်ခေါက်ဆွဲ</p><p class="price">2000</p>
+        </article>
+
+        <article class="item">
+            <p class = "item-burger" id="herbal-broth">ဖက်ထုပ်ကြော်</p><p class="price">2000</p>
+        </article>
+
+        <article class="item">
+            <p class = "item-burger" id="herbal-broth">ဖက်ထုပ်ပြုတ်ချို</p><p class="price">2000</p>
+        </article>
+
+        <article class="item">
+            <p class = "item-burger" id="herbal-broth">ဖက်ထုပ်ပေါင်း</p><p class="price">2500</p>
+        </article>
+
+        <article class="item">
+            <p class = "item-burger" id="herbal-broth">ကြက်သားချောင်းကြော်</p><p class="price">3000</p>
+        </article>
+
+    </div>
+    
+    <script>
+        function showSidebar(){
+            const sidebar = document.querySelector('.sidebar')
+            sidebar.style.display = 'flex'
+        }
+        function hideSidebar(){
+            const sidebar = document.querySelector('.sidebar')
+            sidebar.style.display = 'none'
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,187 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #f8a99b;
+    font-family: fantasy;
+    font-weight: 100;
+}
+
+img{
+    max-width: 320px;
+    float: left;
+    margin-right: 15px;
+    border: 3px solid #8d6963;
+}
+.menu h2{
+    font-size: 35px;
+}
+h2.clear{
+    clear: both;
+}
+
+.text h1{
+    text-align:center;
+    font-size: 50px;
+    padding: 5px;
+}
+.text h2{
+    margin-bottom: 15px;
+}
+.text p{
+    font-size: 18px;
+}
+
+h1{
+    text-align: center;
+    font-size: 45px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+h2{
+    text-align: center;
+}
+
+nav{
+    background-color:  rgb(253, 127, 105);
+    box-shadow: 3px 3px 5px rgba(0,0,0,0.1);
+}
+nav ul{
+    width: 100%;
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+nav li{
+    height: 50px;
+}
+
+nav a{
+    height: 100%;
+    padding: 0 30px;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    color: black;
+    font-size: 20px;
+}
+nav a:hover{
+    background-color: rgb(162, 76, 61);
+}
+
+nav li:first-child{
+    margin-right: auto;
+}
+
+
+.item{
+    text-align: center;
+    margin-bottom: 5px;
+}
+.item p{
+    display: inline-block;
+    font-size: 15px;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.item-burger{
+    text-align: left;
+    width: 25%;
+    margin-bottom: 10px;
+}
+
+.menu{
+        display: block;
+        padding-bottom: 15px;
+        padding-top: 15px;
+        margin-left: auto;
+        margin-right: auto;
+}
+
+.price{
+    text-align: right;
+    width: 25%;
+}
+
+
+.sidebar{
+    position:fixed;
+    top: 0;
+    right: 0;
+    height: 100vh;
+    width: 250px;
+    z-index: 999;
+    background-color: rgb(253, 127, 105);
+    backdrop-filter: blur(10px);
+    box-shadow: -10px 0 10px rgba(0,0,0,0.1);
+    display: none;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+.sidebar li{
+    width: 100%;
+}
+.sidebar a{
+    width: 100%;
+}
+
+#spicy-king-logo{
+    max-width: 350px;
+    width: 300px;
+    height: 300px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    padding-left: 20px;
+}
+
+
+
+
+#menu{
+    font-size: 35px;
+}
+
+@media(max-width: 800px){
+    .hideOnMobile{
+        display: none;
+    }
+    .menu-button{
+        display: block;
+    }
+}
+@media(max-width: 400px){
+    .sidebar{
+        width: 100%;
+    }
+}
+@media only screen and (max-width: 700px){
+    .my-projects{
+        width: 49.9999%;
+        margin: 6px 0;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .my-projects {
+      width: 100%;
+    }
+}
+
+@media screen and(max-width: 768px){
+    .container{
+        padding: 20px;
+    }
+    .contact-wrapper{
+        grid-template-columns: 1fr;
+    }
+}
