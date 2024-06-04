@@ -217,6 +217,54 @@ nav li:first-child{
     position: absolute;
 }
 
+@media(max-width: 600px){
+    #description{
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+    .menu-lists{
+        margin: 0;
+    }
+    .item{
+        text-align:none;
+    }
+    .item p{
+        padding: 0;
+        margin-right: 0;
+        margin-bottom: 5px;
+        margin-top: 5px;
+    }
+    .item-burger{
+        font-size: 9px;
+        padding: 20px;
+    }
+    .price{
+        font-size: 9px;
+        margin-left: 20px;
+    }
+    #address{
+        font-size: 19px;
+    }
+    .map-responsive iframe{
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+        height: 75%;
+        width:  100%;
+        position: absolute;
+    }
+    #clear{
+        margin-top: 8px;
+        margin-bottom: 8px;
+        margin-left: 5%;
+        margin-right: 5%;
+        font-size: 30px;
+    }
+    
+
+}
+
+
 @media(max-width: 800px){
     .hideOnMobile{
         display: none;
