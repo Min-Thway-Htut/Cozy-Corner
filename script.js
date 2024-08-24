@@ -26,6 +26,18 @@ const myFavoriteFootballTeam = {
             image: "food/pizza.webp"
         },
         {
+            name: "Pasta",
+            price: 2,
+            type: "main-dish",
+            image: "food/pasta-img3.png"
+        },
+        {
+           name: "Biryani",
+           price: 3,
+           type: "main-dish",
+           image: "food/biryani.png"
+        },
+        {
             name: "Sushi",
             price: 1,
             type: "main-dish",
@@ -36,12 +48,23 @@ const myFavoriteFootballTeam = {
             price: 1,
             type: "main-dish",
             image: "food/noodle.png"
+        },{
+            name: "Nacho",
+            price: 1,
+            type: "snack",
+            image: "food/nachoOne.png"
         },
         {
             name: "Burger",
             price: 1,
             type: "snack",
             image: "food/burger.png"
+        },
+        {
+            name: "Fries",
+            price: 3,
+            type: "snack",
+            image: "food/fries.webp"
         },
         {
             name: "Pepsi",
@@ -54,7 +77,31 @@ const myFavoriteFootballTeam = {
             price: 2,
             type: "drink",
             image: "food/fanta.png"
-        }
+        },
+        {
+            name: "Red Bull",
+            price: 2.5,
+            type: "drink",
+            image: "food/red-bull.png"
+         },
+        {
+            name: "Cappuccino",
+            price: 2,
+            type: "drink",
+            image: "food/coffee-photo.webp"
+        },
+        {
+            name: "Expresso",
+            price: 2,
+            type: "drink",
+            image: "food/Cafe-Espresso.png"
+        },
+        {
+            name: "Tea",
+            price: 3,
+            type: "drink",
+            image: "food/tea.webp"
+         }
     ]
 };
 

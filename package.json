@@ -1,0 +1,16 @@
+{
+  "name": "spicy-king",
+  "version": "1.0.0",
+  "description": "A simple website for a local restaurant in Yamethin, Myanmar.\r I used HTML, CSS, and JavaScript.\r ## Included Features\r - Responsive navigation bar\r - Real-time location using Google Maps API\r - Feature to filter menus based on the category",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.19.2",
+    "mongoose": "^8.5.4"
+  }
+}
