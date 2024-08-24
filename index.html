@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
     <link rel="icon" type="image/x-icon" href="images/SpicyKing.png"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>Spicy King</title>
 </head>
 <body>
@@ -47,16 +48,44 @@
         <img src="food/sushi.png" alt="sushi" />
         <img src="food/burger.png" alt="burger" />
     </div>
-
     <button><a href="menu.html">View Menu</a></button>
+
+    <section class="contact">
+        <div class="new-container">
+            <h2>Contact Us</h2>
+            <div class="new-contact-wrapper">
+                <div class="contact-form">
+                    <h3>Send us a message</h3>
+                    <form>
+                        <div class="form-group">
+                            <input type="text" name="name" placeholder="Your Name">
+                        </div>
+                        <div class="form-group">
+                            <input type="email" name="name" placeholder="Your Email">
+                        </div>
+                        <div class="form-group">
+                            <textarea name="message" placeholder="Your Message"></textarea>
+                        </div>
+                        <button type="submit">Send Message</button>
+                    </form>
+                </div>
+                <div class="contact-info">
+                    <h3>Contact Information</h3>
+                    <p><i class="fa fa-phone" aria-hidden="true"></i>+49 11234533802</p>
+                    <p><i class="fa fa-envelope-o" aria-hidden="true"></i>spicyking@gmail.com</p>
+                    <p><i class="fa fa-map-marker" aria-hidden="true"></i>Dortstrasse, Berlin, Germany</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
     <h2 id="location">Location</h2>
        <div class="map-responsive" id="googleMap" class="rows" style="width:100%;height:400px">
         <div class="column">
             <p style="text-align: center;"><iframe src="https://www.google.com/maps/embed?pb=!1m13!1m8!1m3!1d467.4276822411862!2d96.1449913!3d20.4067305!3m2!1i1024!2i768!4f13.1!3m2!1m1!2s!5e0!3m2!1sen!2sde!4v1717028627292!5m2!1sen!2sde" width="300" height="300"  allowfullscreen=""style="border: solid 2px black;" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></p></iframe>
     </div>
     <p id="address">Berlin, Germany</p>
-
-    
     </div>
     
 
