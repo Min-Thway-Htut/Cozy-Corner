@@ -1,5 +1,5 @@
 # Restaurant Website
-A simple website for a local restaurant in Yamethin, Myanmar.
+A simple website for a local restaurant.
 I used HTML, CSS, and JavaScript.
 ## Included Features
 - Responsive navigation bar
