@@ -20,11 +20,11 @@
 }
 
 body {
-  background-color: var(--dark-grey);
+  background-color: #FFF1E6;
 }
 
 .title {
-  color: var(--light-grey);
+  color: #252525;
   text-align: center;
   margin: 25px 0;
 }
@@ -44,6 +44,10 @@ body {
   margin: 20px 10px;
 }
 
+.dessert-card img{
+    width: 100%;
+}
+
 .dessert-price {
   font-size: 1.2rem;
 }
@@ -52,15 +56,13 @@ body {
   display: block;
   cursor: pointer;
   width: 100px;
-  color: var(--dark-grey);
-  background-color: var(--gold);
-  background-image: linear-gradient(var(--golden-yellow), var(--orange));
-  border-color: var(--gold);
-  border-width: 3px;
+  color: white;
+  background-color: black;
+  border-color: rgb(241, 221, 0);
 }
 
 .btn:hover {
-  background-image: linear-gradient(var(--yellow), var(--dark-orange));
+  color: rgb(241, 221, 0);
 }
 
 #cart-btn {

@@ -16,91 +16,91 @@ const products = [
     name: "Pizza",
     price: 5,
     category: "Main Dish",
+    image: "food/pizza.webp"
   },
   {
     id: 2,
     name: "Pasta",
     price: 5,
     category: "Main Dish",
+    image: "food/pasta-img3.png"
   },
   {
     id: 3,
     name: "Biryani",
     price: 5,
     category: "Main Dish",
+    image: "food/biryani.png"
   },
   {
     id: 4,
     name: "Sushi",
     price: 6,
     category: "Main Dish",
+    image: "food/sushi.png"
   },
   {
     id: 5,
     name: "Noodle",
     price: 6,
     category: "Main Dish",
+    image: "food/noodle.png"
   },
   {
     id: 6,
     name: "Nacho",
     price: 2.99,
     category: "Dessert",
+    image: "food/nachoOne.png"
   },
   {
     id: 7,
     name: "Burger",
     price: 4.99,
     category: "Snack",
+    image: "food/burger.png" 
   },
   {
     id: 8,
     name: "Fries",
     price: 2.99,
     category: "Snack",
-  },
+    image: "food/fries.webp" },
   {
     id: 9,
     name: "Pepsi",
     price: 2,
     category: "Drink",
+    image: "food/pepsi.png"
   },
   {
     id: 10,
     name: "Fanta",
     price: 2,
     category: "Drink",
+    image: "food/fanta.png"
   },
   {
     id: 11,
     name: "Red Bull",
     price: 2.50,
     category: "Drink",
+    image: "food/red-bull.png"
   },
   {
     id: 12,
     name: "Cappuccino",
     price: 3,
     category: "Drink",
+    image: "food/coffee-photo.webp"
   },
-  {
-    id: 13,
-    name: "Expresso",
-    price: 3,
-    cateogry: "Drink",
-  },
-  {
-    id: 14,
-    name: "Tea",
-    price: 2.50,
-    cateogry: "Drink"
-  }
 ];
 
 products.forEach(
-  ({ name, id, price, category }) => {
+  ({ name, id, price, category, image }) => {
     dessertCards.innerHTML += `
       <div class="dessert-card">
+        <img src="${image}" />
         <h2>${name}</h2>
         <p class="dessert-price">$${price}</p>
         <p class="product-category">Category: ${category}</p>

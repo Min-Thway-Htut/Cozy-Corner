@@ -2,57 +2,28 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="menu.css">
-    <link rel="icon" type="image/x-icon" href="images/SpicyKing.png"/>
-    <title>Menu Section</title>
+    <link rel="stylesheet" href="./test.css" />
+    <title>Shopping Cart</title>
 </head>
-<body>
-    <nav>
-        <ul class="sidebar">
-            <li onclick=hideSidebar()><a href=""><svg xmlns="http://www.w3.org/2000/svg" height="26" viewBox="0 -960 960 960" width="26"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg></a></li>
-            <li><a href="index.html#about-us">About Us</a></li>
-            <li><a href="index.html#clear">Menu</a></li>
-            <li><a href="">Location</a></li>
-            <li><a href="index.html#contact-us">Suggest Us</a></li>
-            <li><a href="index.html#contact-us">Contact Us</a></li>
-        </ul>
-
-        <ul>
-            <li><a href="">Spicy King</a></li>
-            <li class="hideOnMobile"><a href="index.html#about-us">About Us</a></li>
-            <li class="hideOnMobile"><a href="index.html#clear">Menu</a></li>
-            <li class="hideOnMobile"><a href="">Location</a></li>
-            <li class="hideOnMobile"><a href="index.html#contact-us">Suggest Us</a></li>
-            <li class="hideOnMobile"><a href="index.html#contact-us">Contact Us</a></li>
-            <li onclick="showSidebar()"><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="26" viewBox="0 -960 960 960" width="26"><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/></svg></a></li>
-        </ul>
-    </nav>
-    <h1 class="title">Explore Our Menu</h1>
-    <main>
-        <div class="team-stats">
-            <p>Name: <span id="team"></span></p>
-            <p>Location: <span id="sport"></span></p>
-            <p>Year: <span id="year"></span></p>
-            <p>Founder: <span id="head-coach"></span></p>
-        </div>
-        <label class="options-label" for="players">Filter Menu</label>
-        <select name="players" id="players">
-            <option value="all">All</option>
-            <option value="nickname">Main Dishes</option>
-            <option value="forward">Snacks</option>
-            <option value="midfielder">Drinks</option>
-        </select>
-
-        <div class="cards" id="player-cards">
-        </div>
-    </main>
-    <br>
-    <br>
-    <div class="footer">
-        <p>@Spicy King | 2024 Copyright &copy;| Developed by Min Thway Htut</p>
+<bod<header>
+    <h1 class="title">Desserts Page</h1>
+  </header>
+  <main>
+    <button id="cart-btn" type="button" class="btn">
+      <span id="show-hide-cart">Show</span> Cart
+    </button>
+    <div id="cart-container">
+      <button class="btn" id="clear-cart-btn">Clear Cart</button>
+      <div id="products-container"></div>
+      <p>Total number of items: <span id="total-items">0</span></p>
+      <p>Subtotal: <span id="subtotal">$0</span></p>
+      <p>Taxes: <span id="taxes">$0</span></p>
+      <p>Total: <span id="total">$0</span></p>
     </div>
-    <br>
-    <script src="script.js"></script>
+    <div id="dessert-card-container"></div>
+  </main>
+    <script src="./test.js"></script>
 </body>
 </html>
