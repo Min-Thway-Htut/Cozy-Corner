@@ -6,6 +6,16 @@
   box-sizing: border-box;
 }
 
+.footer{
+  background-color:  #FFF1E6;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  margin-bottom: 10px;
+}
+.footer p{
+  text-align: center;
+}
+
 :root {
   --dark-grey: #1b1b32;
   --light-grey: #f5f6f7;
@@ -29,6 +39,10 @@ body {
   margin: 25px 0;
 }
 
+#go-back{
+  margin-left: 8px;
+  font-size: 15px;
+}
 #dessert-card-container {
   display: flex;
   flex-direction: column;
@@ -41,6 +55,7 @@ body {
   padding: 15px;
   text-align: center;
   border-radius: 15px;
+  border: 1px solid rgb(0, 0, 0,0.1);
   margin: 20px 10px;
 }
 
